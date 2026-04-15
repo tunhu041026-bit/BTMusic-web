@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Web Music</title>
+
+<style>
+
+body{
+margin:0;
+background:#2b2b2b;
+color:white;
+font-family:Arial;
+}
+
+header{
+background:#1f1f1f;
+padding:20px;
+text-align:center;
+font-size:30px;
+}
+
+.container{
+display:flex;
+height:90vh;
+}
+
+.left{
+width:30%;
+border-right:2px solid white;
+padding:20px;
+}
+
+.right{
+width:70%;
+padding:20px;
+}
+
+a{
+display:block;
+padding:10px;
+color:white;
+text-decoration:none;
+border-bottom:1px solid gray;
+}
+
+a:hover{
+background:#3a3a3a;
+}
+
+iframe{
+margin-top:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+My Music
+</header>
+
+<div class="container">
+
+<div class="left">
+
+<h2>Danh sách bài hát</h2>
+
+<a href="https://www.youtube.com/embed/rJabgOChWiM" target="music">
+Voi bản đôn - Khóa ly biệt
+        </a>
+
+<a href="https://www.youtube.com/embed/fyMgBQioTLo" target="music">
+Tlinh - Nếu lúc đó
+</a>
+
+<a href="https://www.youtube.com/embed/GwCUbhE0TY0" target="music">
+Mr.siro - Một bước yêu vạn dậm đau
+</a>
+
+</div>
+
+<div class="right">
+
+<h2>Video</h2>
+
+<iframe name="music"
+width="700"
+height="400"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+</div>
+
+</div>
+
+</body>
+</html>
